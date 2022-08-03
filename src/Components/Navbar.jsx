@@ -24,27 +24,52 @@ const Navbar = () => {
       {/* Menu */}
       <ul className="hidden md:flex ">
         <li>
-          <Link to="home" smooth={true} duration={500} className="hover:border-b-4 border-pink-600">
+          <Link
+            to="home"
+            smooth={true}
+            duration={500}
+            className="hover:border-b-4 border-pink-600"
+          >
             Home
           </Link>
         </li>
         <li>
-          <Link to="about" smooth={true} duration={500} className="hover:border-b-4 border-pink-600">
+          <Link
+            to="about"
+            smooth={true}
+            duration={500}
+            className="hover:border-b-4 border-pink-600"
+          >
             About
           </Link>
         </li>
         <li>
-          <Link to="skills" smooth={true} duration={500} className="hover:border-b-4 border-pink-600">
+          <Link
+            to="skills"
+            smooth={true}
+            duration={500}
+            className="hover:border-b-4 border-pink-600"
+          >
             Skills
           </Link>
         </li>
         <li>
-          <Link to="project" smooth={true} duration={500} className="hover:border-b-4 border-pink-600">
+          <Link
+            to="project"
+            smooth={true}
+            duration={500}
+            className="hover:border-b-4 border-pink-600"
+          >
             Project
           </Link>
         </li>
         <li>
-          <Link to="contact" smooth={true} duration={500} className="hover:border-b-4 border-pink-600">
+          <Link
+            to="contact"
+            smooth={true}
+            duration={500}
+            className="hover:border-b-4 border-pink-600"
+          >
             Contact
           </Link>
         </li>
@@ -92,6 +117,12 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
+        <li className="py-6 text-4xl">
+          <button className="text-white group border-2 px-6 py-3 my-2 items-center hover:bg-pink-600 hover:border-pink-600">
+            <a href="https://drive.google.com/file/d/1_EEl-IJTNr8Az29TibjFwbI9K4OFxIPU/view?usp=sharing"
+              target="_blank">Resume</a>
+          </button>
+        </li>
       </ul>
 
       {/* Social icons */}
@@ -100,7 +131,8 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://www.linkedin.com/in/nazmul-hassan-781a51196/" target="_blank"
+              href="https://www.linkedin.com/in/nazmul-hassan-781a51196/"
+              target="_blank"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -108,7 +140,8 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://github.com/Himel851" target="_blank"
+              href="https://github.com/Himel851"
+              target="_blank"
             >
               Github <FaGithub size={30} />
             </a>
@@ -116,16 +149,18 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#911b2fe4]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://www.instagram.com/nazmul_hasan.himel/" target="_blank"
+              href="https://www.instagram.com/nazmul_hasan.himel/"
+              target="_blank"
             >
               Instagram <FaInstagramSquare size={30} />
             </a>
           </li>
-          
+
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#2b178d]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://www.facebook.com/nazmulhasan.himel" target="_blank"
+              href="https://www.facebook.com/nazmulhasan.himel"
+              target="_blank"
             >
               Facebook <FaFacebook size={30} />
             </a>
@@ -133,7 +168,8 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://drive.google.com/file/d/1_EEl-IJTNr8Az29TibjFwbI9K4OFxIPU/view?usp=sharing" target="_blank"
+              href="https://drive.google.com/file/d/1_EEl-IJTNr8Az29TibjFwbI9K4OFxIPU/view?usp=sharing"
+              target="_blank"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
