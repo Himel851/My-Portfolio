@@ -9,8 +9,6 @@ import c from './images/c.png'
 import cplus from './images/c+.jpg'
 import es from './images/es.png'
 import hook from './images/hook.png'
-import fetch from './images/fetch.jpg'
-import dom from './images/htmlDom.jpg'
 import json from './images/json.png'
 import router from './images/react-router.jpg'
 import slick from './images/slick.jpg'
@@ -53,14 +51,6 @@ const Skills = () => {
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={hook} alt="HTML icon" />
                   <p className='my-4'>React Hook</p>
-              </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={fetch} alt="HTML icon" />
-                  <p className='my-4'>JS Fetch APIs</p>
-              </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={dom} alt="HTML icon" />
-                  <p className='my-4'>JS HTML DOM</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={json} alt="HTML icon" />
