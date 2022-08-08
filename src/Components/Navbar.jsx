@@ -4,8 +4,6 @@ import {
   FaTimes,
   FaGithub,
   FaLinkedin,
-  FaFacebook,
-  FaInstagramSquare,
 } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "./images/logo.png";
@@ -17,9 +15,7 @@ const Navbar = () => {
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
-      <div>
-        <img src={Logo} alt=" " style={{ width: "50px" }} />
-      </div>
+      <div></div>
 
       {/* Menu */}
       <ul className="hidden md:flex ">
@@ -28,7 +24,7 @@ const Navbar = () => {
             to="home"
             smooth={true}
             duration={500}
-            className="hover:border-b-4 border-pink-600"
+            className="hover:border-b-4 border-[#FC9A03]"
           >
             Home
           </Link>
@@ -38,7 +34,7 @@ const Navbar = () => {
             to="about"
             smooth={true}
             duration={500}
-            className="hover:border-b-4 border-pink-600"
+            className="hover:border-b-4 border-[#FC9A03]"
           >
             About
           </Link>
@@ -48,7 +44,7 @@ const Navbar = () => {
             to="skills"
             smooth={true}
             duration={500}
-            className="hover:border-b-4 border-pink-600"
+            className="hover:border-b-4 border-[#FC9A03]"
           >
             Skills
           </Link>
@@ -58,7 +54,7 @@ const Navbar = () => {
             to="project"
             smooth={true}
             duration={500}
-            className="hover:border-b-4 border-pink-600"
+            className="hover:border-b-4 border-[#FC9A03]"
           >
             Project
           </Link>
@@ -68,7 +64,7 @@ const Navbar = () => {
             to="contact"
             smooth={true}
             duration={500}
-            className="hover:border-b-4 border-pink-600"
+            className="hover:border-b-4 border-[#FC9A03]"
           >
             Contact
           </Link>
@@ -131,7 +127,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://www.linkedin.com/in/nazmul-hassan-781a51196/"
+              href="https://www.linkedin.com/in/nazmulhimel96/"
               target="_blank"
             >
               Linkedin <FaLinkedin size={30} />
@@ -146,26 +142,8 @@ const Navbar = () => {
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#911b2fe4]">
-            <a
-              className="flex justify-between items-center w-full text-gray-300"
-              href="https://www.instagram.com/nazmul_hasan.himel/"
-              target="_blank"
-            >
-              Instagram <FaInstagramSquare size={30} />
-            </a>
-          </li>
-
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#2b178d]">
-            <a
-              className="flex justify-between items-center w-full text-gray-300"
-              href="https://www.facebook.com/nazmulhasan.himel"
-              target="_blank"
-            >
-              Facebook <FaFacebook size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
+          
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6f39eb]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://drive.google.com/file/d/1_EEl-IJTNr8Az29TibjFwbI9K4OFxIPU/view?usp=sharing"

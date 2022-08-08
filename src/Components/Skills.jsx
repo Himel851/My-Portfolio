@@ -5,7 +5,6 @@ import CSS from './images/css.png';
 import JavaScript from './images/javascript.png';
 import ReactImg from './images/react.png';
 import GitHub from './images/github.png';
-import Tailwind from './images/tailwind.png';
 import c from './images/c.png'
 import cplus from './images/c+.jpg'
 import es from './images/es.png'
@@ -22,7 +21,7 @@ const Skills = () => {
       {/* Container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
           <div>
-              <p className='text-4xl font-bold inline border-b-4 border-pink-600 '>Skills</p>
+              <p className='text-4xl font-bold inline border-b-4 border-[#FC9A03] '>Skills</p>
               <p className='py-4'>These are the technologies, I've worked with</p>
           </div>
 
@@ -48,12 +47,8 @@ const Skills = () => {
                   <p className='my-4'>GITHUB</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={Tailwind} alt="HTML icon" />
-                  <p className='my-4'>Tailwind</p>
-              </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={es} alt="HTML icon" />
-                  <p className='my-4'>JS ES5 &amp; ES6</p>
+                  <p className='my-4'>ES6</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={hook} alt="HTML icon" />
