@@ -26,9 +26,7 @@ const About = () => {
           </div> */}
           <div className="mt-20">
             <p>
-              I am passionate about building excellent software that improves
-              the lives of those around me. I specialize in creating software
-              for clients ranging from individuals and <br /> small-businesses all the way to large enterprise corporations. What would you do if you hada software expert available at your fingertips?
+            I am a highly passionate, enthusiastic, hardworking and dedicated learner. Self-motivated IT professional with deep knowledge and proficiency in JavaScript, HTML, CSS, and mobile responsive website development, as well as highly potent skills and ability in encoding virus-free and efficient code. <br /> I have a strong passion for the creativity and discipline that goes into front-end development. Keeping in mind scalability and clean code that is maintainable and readable.
             </p>
           </div>
         </div>

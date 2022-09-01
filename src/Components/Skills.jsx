@@ -5,8 +5,6 @@ import CSS from './images/css.png';
 import JavaScript from './images/javascript.png';
 import ReactImg from './images/react.png';
 import GitHub from './images/github.png';
-import c from './images/c.png'
-import cplus from './images/c+.jpg'
 import es from './images/es.png'
 import hook from './images/hook.png'
 import json from './images/json.png'
@@ -64,14 +62,7 @@ const Skills = () => {
                   <img className='w-20 mx-auto' src={slick} alt="HTML icon" />
                   <p className='my-4'>React Slick</p>
               </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={c} alt="HTML icon" />
-                  <p className='my-4'>C</p>
-              </div>
-              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={cplus} alt="HTML icon" />
-                  <p className='my-4'>C++</p>
-              </div>
+              
               
               
           </div>

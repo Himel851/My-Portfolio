@@ -5,6 +5,7 @@ import gym from './images/gym.jpg'
 import ecom from './images/ecom.png'
 import edu from './images/edu.jpeg'
 import stopwatch from './images/stopwatch.jpg'
+import quiz from './images/quiz.jpg'
 
 const Project = () => {
   return (
@@ -21,6 +22,30 @@ const Project = () => {
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
             {/* Grid Item */}
+            <div
+            style={{ backgroundImage: `url(${quiz})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                Online Quiz App
+              </span>
+              <div className='pt-8 text-center'>
+                <a href='https://onlinequiz851.netlify.app/' target="_blank">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Website
+                  </button>
+                </a>
+                <a href='https://github.com/Himel851/Online-Quiz-App' target="_blank">
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Github
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
           <div
             style={{ backgroundImage: `url(${gym})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -44,6 +69,7 @@ const Project = () => {
               </div>
             </div>
           </div>
+
           <div
             style={{ backgroundImage: `url(${ecom})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -67,6 +93,7 @@ const Project = () => {
               </div>
             </div>
           </div>
+
             {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${restaurant})` }}
@@ -91,6 +118,7 @@ const Project = () => {
               </div>
             </div>
           </div>
+
           <div
             style={{ backgroundImage: `url(${diu})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
@@ -114,6 +142,7 @@ const Project = () => {
               </div>
             </div>
           </div>
+
             {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${edu})` }}
@@ -138,29 +167,9 @@ const Project = () => {
               </div>
             </div>
           </div>
-          <div
-            style={{ backgroundImage: `url(${stopwatch})` }}
-            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='opacity-0 group-hover:opacity-100'>
-              <span className='text-2xl font-bold text-white tracking-wider'>
-                StopWatch
-              </span>
-              <div className='pt-8 text-center'>
-                <a href='https://himel851.github.io/StopWatch/' target="_blank">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Website
-                  </button>
-                </a>
-                <a href='https://github.com/Himel851/StopWatch' target="_blank">
-                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    Github
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
+
+          
+
         </div>
       </div>
     </div>
