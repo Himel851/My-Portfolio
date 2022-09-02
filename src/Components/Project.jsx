@@ -4,7 +4,6 @@ import restaurant from './images/restaurant.png'
 import gym from './images/gym.jpg'
 import ecom from './images/ecom.png'
 import edu from './images/edu.jpeg'
-import stopwatch from './images/stopwatch.jpg'
 import quiz from './images/quiz.jpg'
 
 const Project = () => {
