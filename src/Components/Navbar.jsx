@@ -1,10 +1,5 @@
 import React, { useState } from "react";
-import {
-  FaBars,
-  FaTimes,
-  FaGithub,
-  FaLinkedin,
-} from "react-icons/fa";
+import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "./images/logo.png";
 import { Link } from "react-scroll";
@@ -115,8 +110,12 @@ const Navbar = () => {
         </li>
         <li className="py-6 text-4xl">
           <button className="text-white group border-2 px-6 py-3 my-2 items-center hover:bg-pink-600 hover:border-pink-600">
-            <a href="https://drive.google.com/file/d/1_EEl-IJTNr8Az29TibjFwbI9K4OFxIPU/view?usp=sharing"
-              target="_blank">Resume</a>
+            <a
+              href="https://drive.google.com/file/d/1_EEl-IJTNr8Az29TibjFwbI9K4OFxIPU/view?usp=sharing"
+              target="_blank"
+            >
+              Resume
+            </a>
           </button>
         </li>
       </ul>
@@ -142,7 +141,7 @@ const Navbar = () => {
               Github <FaGithub size={30} />
             </a>
           </li>
-          
+
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6f39eb]">
             <a
               className="flex justify-between items-center w-full text-gray-300"

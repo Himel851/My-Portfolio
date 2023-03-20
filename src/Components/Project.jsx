@@ -1,10 +1,10 @@
 import React from 'react';
 import diu from './images/diu.jpeg'
-import restaurant from './images/restaurant.png'
-import gym from './images/gym.jpg'
+import youtube from './images/youtube.PNG'
+import movie from './images/movie.jpg'
 import ecom from './images/ecom.png'
 import edu from './images/edu.jpeg'
-import quiz from './images/quiz.jpg'
+import hotel from './images/hotel.jpg'
 
 const Project = () => {
   return (
@@ -22,21 +22,21 @@ const Project = () => {
 
             {/* Grid Item */}
             <div
-            style={{ backgroundImage: `url(${quiz})` }}
+            style={{ backgroundImage: `url(${hotel})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                Online Quiz App
+              Hotel Booking App
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://onlinequiz851.netlify.app/' target="_blank">
+                <a href='https://himelhotel851.netlify.app/' target="_blank">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Website
                   </button>
                 </a>
-                <a href='https://github.com/Himel851/Online-Quiz-App' target="_blank">
+                <a href='https://github.com/Himel851/Hotel-Booking-App' target="_blank">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Github
                   </button>
@@ -46,21 +46,21 @@ const Project = () => {
           </div>
 
           <div
-            style={{ backgroundImage: `url(${gym})` }}
+            style={{ backgroundImage: `url(${movie})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-                Gym Services
+              Movie App
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://gym-services.netlify.app/' target="_blank">
+                <a href='https://movieapp851.netlify.app/' target="_blank">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Website
                   </button>
                 </a>
-                <a href='https://github.com/Himel851/Gym-Services' target="_blank">
+                <a href='https://github.com/Himel851/Movie-App' target="_blank">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Github
                   </button>
@@ -79,12 +79,12 @@ const Project = () => {
                 E-Commerce Website
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://himel851.github.io/E-Commerce-Website/#home' target="_blank">
+                <a href='https://himel-shopping-cart851.netlify.app/' target="_blank">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Website
                   </button>
                 </a>
-                <a href='https://github.com/Himel851/E-Commerce-Website' target="_blank">
+                <a href='https://github.com/Himel851/E-Commerece-Shopping-Cart' target="_blank">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Github
                   </button>
@@ -95,21 +95,21 @@ const Project = () => {
 
             {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${restaurant})` }}
+            style={{ backgroundImage: `url(${youtube})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
             <div className='opacity-0 group-hover:opacity-100'>
               <span className='text-2xl font-bold text-white tracking-wider'>
-              Restaurant Management System
+              YouTube Clone Application
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://restaurant-management851.netlify.app/' target="_blank">
+                <a href='https://himelyoutube851.netlify.app/' target="_blank">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Website
                   </button>
                 </a>
-                <a href='https://github.com/Himel851/Restaurant-Management-System-React-' target="_blank">
+                <a href='https://github.com/Himel851/Youtube-Clone-Application' target="_blank">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Github
                   </button>
