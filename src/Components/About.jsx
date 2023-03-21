@@ -1,5 +1,5 @@
 import React from "react";
-import myPic from "./images/himel.jpg";
+import myPic from "./images/himel.png";
 
 const About = () => {
   return (
@@ -12,12 +12,12 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
+        <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4 mt-8">
           <div className="flex flex-wrap justify-center">
             <div className="w-6/12 sm:w-8/12 px-4">
               <img
                 src={myPic} alt=""
-                className="shadow rounded-full max-w-full h-auto align-middle border-none"
+                className="shadow rounded-3xl max-w-full h-auto align-middle border-none"
               />
             </div>
           </div>
